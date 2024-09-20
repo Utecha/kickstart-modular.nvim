@@ -17,6 +17,9 @@ require 'lazy-bootstrap'
 -- [[ Configure and install plugins ]]
 require 'lazy-plugins'
 
+-- [[ Set default colorscheme ]]
+vim.cmd.colorscheme 'everforest'
+
 -- [[ Extra custom configuration for adding C3 language support ]]
 --
 -- Add filetypes
